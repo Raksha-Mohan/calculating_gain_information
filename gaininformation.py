@@ -39,9 +39,3 @@ gn_case_2 = information_gain(case_2_parent, case_2_splits)
 print(f"Information Gain for Case (1): {gn_case_1:.3f}")
 print(f"Information Gain for Case (2): {gn_case_2:.3f}")
 
-# Suggest which split to use based on information gain
-if gn_case_1 > gn_case_2:
-    print("Suggest to use Case (1) for the split as it has higher information gain.")
-else:
-    print("Suggest to use Case (2) for the split as it has higher information gain.")
-
